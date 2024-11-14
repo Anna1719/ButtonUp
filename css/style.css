@@ -1,0 +1,22 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.content {
+  margin: 35px;
+}
+
+.scroll-to-start {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  border: solid rgba(0, 0, 0, 0.6862745098) 2px;
+  padding: 8px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: none;
+}
+.scroll-to-start:hover {
+  background-color: rgba(3, 75, 177, 0.5215686275);
+}/*# sourceMappingURL=style.css.map */
